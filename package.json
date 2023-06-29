@@ -1,0 +1,20 @@
+{
+  "name": "newslettersubapi",
+  "version": "1.0.0",
+  "description": "Newsletter subscription",
+  "main": "app.js",
+  "scripts": {
+      "Start" :"node app.js",
+      "devStart":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sri Chanakya Yennana",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "consolidate": "^1.0.1",
+    "express": "^4.18.2",
+    "mustache": "^4.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
